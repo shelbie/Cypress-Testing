@@ -123,6 +123,7 @@ export default function Form() {
       <label htmlFor="password">
         Password
         <input
+        type="text"
           name="password"
           id="password"
           value={formState.password}
